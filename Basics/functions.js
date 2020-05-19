@@ -15,7 +15,7 @@ function greeting(name) {
     // In the parenthesis we add a variable we call a parameter
     // this variable is only useful in side of this function (local variable)
     // We can not use this variable outside of the function.
-    console.log('Hey' + name)
+    console.log('Hey ' + name)
 }
 
 greeting('Tony'); // we pass the value of tony in the variable
@@ -32,9 +32,10 @@ greeting('Sandy');
 
 function indentity(firstname, lastname, age) {
     // we seperate parameters by adding ','
-    console.log('I am ' + firstname + lastname + ' and I am ',
+    console.log('I am ' + firstname + ' ' + lastname + ' and I am ',
         age)
 }
 
 indentity('jack', 'cactus', '5')
-// If we dont fill in all the parameters with a agrument it will print undefined in the console.
+// If we don't fill in all the parameters with a agrument it will print undefined in the console.
+// you can't skip parameters by leaving them blank they will fill as you declared them in the function
