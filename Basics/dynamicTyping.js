@@ -6,28 +6,28 @@
 //  example: let name = ' John ';
 
 
-let name = 'vance';
-let age = 25;
-let isApproved = true;
-let firstName = undefined;
-let selectColor = null;
+let name2 = 'vance';
+let age2 = 25;
+let isApproved2 = true;
+let firstName2 = undefined;
+let selectColor2 = null;
 
-console.log(typeof name) // this comes back as a string
-name = 1;
-console.log(typeof name) // this comes back as a number
+console.log(typeof name2) // this comes back as a string
+name2 = 1;
+console.log(typeof name2) // this comes back as a number
 // this is an example of dynamic language
 // unlike static languages the type of the variables will be determined at runtime based on the values that are assigned.
 
-console.log(typeof age) // comes back as a number
+console.log(typeof age2) // comes back as a number
 number = 25.1;
-console.log(typeof age) // Still comes back as a number 
+console.log(typeof age2) // Still comes back as a number 
 // In JS there are only one type of numbers some languages have more than one type of number like float numbers.
 
-console.log(typeof isApproved) // boolean
+console.log(typeof isApproved2) // boolean
 
-console.log(typeof firstName) // comes back as undefined
+console.log(typeof firstName2) // comes back as undefined
 // this means that undefined is actually a type and also a value.
 // so because we set the value of firstName to undefined its type is undefined
 
-console.log(typeof selectColor) // This comes back as a object.
+console.log(typeof selectColor2) // This comes back as a object.
 // we will look more into object in object.js
