@@ -18,5 +18,8 @@ ES6 has came out and this version defined many new features for JS.</p>
 
 <h2 id=section1>Basics</h2>
 
+<p>Let's talk about variables</p>
+
+<p>We use a <strong>variable</strong> to store data temporarily in the computers memory. We store that data somewhere and give that memory location a name. With this name, we can read the data at the location later. A variable is like a box what we put in the box is the value we assign to the variable in other words the variable. The label is the name of the box or in this case the name of a variable.</p>
 
 <a href="#home">Top</a>
