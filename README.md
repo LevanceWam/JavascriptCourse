@@ -15,11 +15,52 @@ ES6 has came out and this version defined many new features for JS.</p>
 
 <h2>Table of Contents</h2>
 <li><a href='#section1'>Basics</a></li>
+<li><a href='#section2'>Operators</a></li>
 
 <h2 id=section1>Basics</h2>
 
-<p>Let's talk about variables</p>
+<p>Let's talk about variables.</p>
 
-<p>We use a <strong>variable</strong> to store data temporarily in the computers memory. We store that data somewhere and give that memory location a name. With this name, we can read the data at the location later. A variable is like a box what we put in the box is the value we assign to the variable in other words the variable. The label is the name of the box or in this case the name of a variable.</p>
+<p>We use a <strong>variable</strong> to store data temporarily in the computers memory. We store that data somewhere and give that memory location a name. With this name, we can read the data at the location later. A variable is like a box what we put in the box is the value we assign to the variable in other words the variable. The label is the name of the box or in this case the name of a variable. Variables by default are undefined when we first create them and don't put information in it</p>
+
+<p>Before ES6 we use to use var when we defined variables. But due to some issues caused by using var when ES6 was released we changed to let and const.</p>
+
+<p>There are some rules when we are naming variables:</p>
+
+<li>Cannot be a reserved keyword.</li>
+<li>Should be meaningful.</li>
+<li>Cannot start with a number.</li>
+<li>No spaces or hypen.</li>
+<li>Should use camel casing.</li>
+<li>Are case-sensitive.</li>
+<br>
+
+<h5>Constants</h5>
+
+<p>There are times we need our variables to keep the value the same. This is because it can cause a bug in the program.</p>
+
+<p>To avoid this we use constant (const). We cannot reassign a value on constant.</p>
+
+<h5>Primitive and Reference Types</h5>
+
+<p>In Javascript we have two types: Primitive and Reference.</p>
+
+<p>Some Primitive are:</p>
+
+<li>Strings</li>
+<li>Number</li>
+<li>Boolean</li>
+<li>Undefined</li>
+<li>Null</li>
+<br>
+
+<p>Some Reference are:</p>
+
+<li>Object</li>
+<li>Arrays</li>
+<li>Functions</li>
+<br>
 
 <a href="#home">Top</a>
+
+<h2 id=section2>Operators</h2>
