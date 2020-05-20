@@ -65,4 +65,6 @@ ES6 has came out and this version defined many new features for JS.</p>
 
 <h2 id=section2>Operators</h2>
 
+<p> In JS we have different types of Operators. Artihmetic, Assignment, Comparison, Logical, and  Bitwise operators. When we use these operators along with variables and constants we create expressions. Expressions can be used to implement logic and algorithms. </p>
+
 <a href="#home">Top</a>
