@@ -35,13 +35,13 @@ ES6 has came out and this version defined many new features for JS.</p>
 <li>Are case-sensitive.</li>
 <br>
 
-<h5>Constants</h5>
+<h4>Constants</h4>
 
 <p>There are times we need our variables to keep the value the same. This is because it can cause a bug in the program.</p>
 
 <p>To avoid this we use constant (const). We cannot reassign a value on constant.</p>
 
-<h5>Primitive and Reference Types</h5>
+<h4>Primitive and Reference Types</h4>
 
 <p>In Javascript we have two types: Primitive and Reference.</p>
 
@@ -65,6 +65,7 @@ ES6 has came out and this version defined many new features for JS.</p>
 
 <h2 id=section2>Operators</h2>
 
-<p> In JS we have different types of Operators. Artihmetic, Assignment, Comparison, Logical, and  Bitwise operators. When we use these operators along with variables and constants we create expressions. Expressions can be used to implement logic and algorithms. </p>
+<p> In JS we have different types of Operators. Artihmetic, Assignment, Comparison, Logical, and  Bitwise operators. When we use these operators along with variables and constants we create expressions. Expressions can be used to implement logic and algorithms. An expression is something that produces a value.</p>
+
 
 <a href="#home">Top</a>
