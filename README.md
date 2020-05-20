@@ -64,3 +64,5 @@ ES6 has came out and this version defined many new features for JS.</p>
 <a href="#home">Top</a>
 
 <h2 id=section2>Operators</h2>
+
+<a href="#home">Top</a>
