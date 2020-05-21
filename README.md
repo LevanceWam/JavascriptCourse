@@ -16,6 +16,7 @@ ES6 has came out and this version defined many new features for JS.</p>
 <h2>Table of Contents</h2>
 <li><a href='#section1'>Basics</a></li>
 <li><a href='#section2'>Operators</a></li>
+<li><a href='#section3'>Control Flow</a></li>
 
 <h2 id=section1>Basics</h2>
 
@@ -84,3 +85,5 @@ console.log('2' == 2);
 <p>With the loose operator it doesn't care if the type of the values are different. The operator will look to the left and compare the type first. If the types do not match then it will convert the value type on the right to match the one on the left. After that then it will compare the values.</p>
 
 <a href="#home">Top</a>
+
+<h2 id=section3>Control Flow</h2>
