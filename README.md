@@ -74,7 +74,7 @@ ES6 has came out and this version defined many new features for JS.</p>
 console.log(1 === 1)
 
 <!-- Loose Equality -->
-console.log(2 == 2);
+console.log('2' == 2);
 ```
 
 <p> In the code above we have the loose and strict equality operators. The important thing to notice that is the strict operator has === and the loose has ==. They are both used to compare values but have different ways they choose to go about that.</p>
