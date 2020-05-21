@@ -35,13 +35,13 @@ ES6 has came out and this version defined many new features for JS.</p>
 <li>Are case-sensitive.</li>
 <br>
 
-<h5>Constants</h5>
+<h4>Constants</h4>
 
 <p>There are times we need our variables to keep the value the same. This is because it can cause a bug in the program.</p>
 
 <p>To avoid this we use constant (const). We cannot reassign a value on constant.</p>
 
-<h5>Primitive and Reference Types</h5>
+<h4>Primitive and Reference Types</h4>
 
 <p>In Javascript we have two types: Primitive and Reference.</p>
 
@@ -64,5 +64,23 @@ ES6 has came out and this version defined many new features for JS.</p>
 <a href="#home">Top</a>
 
 <h2 id=section2>Operators</h2>
+
+<p> In JS we have different types of Operators. Artihmetic, Assignment, Comparison, Logical, and  Bitwise operators. When we use these operators along with variables and constants we create expressions. Expressions can be used to implement logic and algorithms. An expression is something that produces a value.</p>
+
+<p>Let's talk Equality Operators take a look at the code below.</p>
+
+```
+<!-- Strict Equality (Type + value) -->
+console.log(1 === 1)
+
+<!-- Loose Equality -->
+console.log('2' == 2);
+```
+
+<p> In the code above we have the loose and strict equality operators. The important thing to notice that is the strict operator has === and the loose has ==. They are both used to compare values but have different ways they choose to go about that.</p>
+
+<p> With the strict operator the it is comparing both the value and the type of the objects it is comparing. So this means even if the value is the same if the type doesn't match then it is false.</p>
+
+<p>With the loose operator it doesn't care if the type of the values are different. The operator will look to the left and compare the type first. If the types do not match then it will convert the value type on the right to match the one on the left. After that then it will compare the values.</p>
 
 <a href="#home">Top</a>

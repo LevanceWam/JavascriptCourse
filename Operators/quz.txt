@@ -1,0 +1,46 @@
+1. What is the result of "true&&fasle"?
+Answer: False
+
+2. What is the result of “(true && false) || true”?
+Answer: True
+
+3. What is the value of y?
+    let x = 10; 
+    let y = (x > 10) ? 1 : 0;
+Answer: 0
+
+4. What is the value of x?
+    let x = (2 + 3) * (4 + 5); 
+Answer: 45
+
+5. Which expression returns true?
+    a ‘1’ === 1; 
+    b 1 == 1;
+    c 1 === 1;
+Answer: B and C
+
+6. What is the value of x?
+    let x = (1 == true);
+Answer: True
+
+7. What is the value of y?
+    let x = 10;
+    let y = (x > 5) && (x < 15);
+Answer: True
+
+8. What is the value of x? 
+    let x = 5;
+     x += 3;
+Answer: 8
+
+9. What is the value of y? 
+    let x = 10; 
+    let y = x++;
+Answer: It is still 10 because we read 
+the x first and didn't execute the expression for 
+it to increment.
+
+10. What is the value of y?
+    let x = 1; 
+    let y = x !== 2;
+Answer: True
