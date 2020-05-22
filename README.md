@@ -87,3 +87,5 @@ console.log('2' == 2);
 <a href="#home">Top</a>
 
 <h2 id=section3>Control Flow</h2>
+
+<a href="#home">Top</a>
