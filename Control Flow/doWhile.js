@@ -16,7 +16,7 @@ while (i <= 5) {
 
 // do-while
 let j = 0;
-do {
+do { // this goes first
     if (j % 2 !== 0) console.log(j)
     j++;
-} while (j <= 5);
+} while (j <= 5); // then checks this
