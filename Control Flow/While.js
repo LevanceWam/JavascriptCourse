@@ -2,15 +2,15 @@
 // the loop variable is part of the loop variable itself
 // In while loops we have to declare the variable externally
 
-for (let x = 0; x <= 5; x++) {
-    if (x % 2 !== 0) console.log(x)
+for (let i = 0; i <= 5; i++) {
+    if (i % 2 !== 0) console.log(i)
 }
 
 //this variable of i is different the the i inside of the for loop due to scope
 let i = 0;
 // write a condition
 while (i <= 5) {
-    if (x % 2 !== 0) console.log(x)
+    if (i % 2 !== 0) console.log(i)
     i++;
 }
 
