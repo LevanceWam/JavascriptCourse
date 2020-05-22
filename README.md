@@ -88,4 +88,16 @@ console.log('2' == 2);
 
 <h2 id=section3>Control Flow</h2>
 
+<p>A refresher on loops:</p>
+
+<p>In JS We have various kinds of loops. Loops are used when we want to repeat an action multiple times. Although they do the same thing differ when it comes to starting and ending them.</p>
+
+<p>Types of loops:</p>
+
+<li>For Loop</li>
+<li>While Loop</li>
+<li>Do While Loop</li>
+<li>For In Loop</li>
+<li>For Of Loop</li>
+
 <a href="#home">Top</a>
