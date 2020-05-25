@@ -6,11 +6,11 @@
 
 let p = 0;
 while (p <= 10) {
-    if (p === 5) break; // this will stop at 5
-    // if (i % 2 === 0){
-    //     i++;
-    //     continue
-    // }
+    // if (p === 5) break; // this will stop at 5
+    if (p % 2 === 0) {
+        p++;
+        continue
+    }
     // the continue statement will print all of the odd numbers
     console.log(p);
     p++;
