@@ -87,3 +87,22 @@ console.log('2' == 2);
 <a href="#home">Top</a>
 
 <h2 id=section3>Control Flow</h2>
+
+<p>A refresher on loops:</p>
+
+<p>In JS We have various kinds of loops. Loops are used when we want to repeat an action multiple times. Although they do the same thing differ when it comes to starting and ending them.</p>
+
+<p>Types of loops:</p>
+
+<li>For Loop</li>
+<li>While Loop</li>
+<li>Do While Loop</li>
+<li>For In Loop</li>
+<li>For Of Loop</li>
+<br>
+
+<strong>Caution!</strong>
+
+<p> When we are writing loops we have to be mindful of infinite loops, loops that execute forever. If one of these are made this will crash your browser. Meaning you would have to close the browser in order to use the tab or browser. One of the most common loops in my opinion that this can happen to is the do-while and while loops. But, for loops are able to cause them as well.</p>
+
+<a href="#home">Top</a>
