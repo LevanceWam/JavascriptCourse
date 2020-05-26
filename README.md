@@ -105,4 +105,6 @@ console.log('2' == 2);
 
 <p> When we are writing loops we have to be mindful of infinite loops, loops that execute forever. If one of these are made this will crash your browser. Meaning you would have to close the browser in order to use the tab or browser. One of the most common loops in my opinion that this can happen to is the do-while and while loops. But, for loops are able to cause them as well.</p>
 
+<p> Just a helpful tip. If you have nested loops and aren't the best or comfortable with them you should seperate them into seperate functions to make things a little easier.</p>
+
 <a href="#home">Top</a>
