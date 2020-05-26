@@ -111,3 +111,12 @@ console.log('2' == 2);
 <a href="#home">Top</a>
 
 <h2 id=section4>Objects</h2>
+
+<p>What are objects:</p>
+
+<p>Objects are collections of key values. So if we have properties we want to encapsulate them inside of an object. We can put anything inside of an object functions, numbers, arrays and plenty more.
+when we have a function in the object it is called a method.</p>
+
+<p>OOP:</p>
+
+<p> Object oriented programming (OOP), is a style of programming. Where we see a program as a collection of objects. They talk to each other to perform some functionality.</p>
