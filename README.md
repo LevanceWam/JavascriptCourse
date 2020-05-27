@@ -117,6 +117,8 @@ console.log('2' == 2);
 <p>Objects are collections of key values. So if we have properties we want to encapsulate them inside of an object. We can put anything inside of an object functions, numbers, arrays and plenty more.
 when we have a function in the object it is called a method.</p>
 
+<p>When we use an object it is not stored in the variable. The object is stored somewhere else in the memory and the address of the memory location is stored inside the memory variable</p>
+
 <p>OOP:</p>
 
 <p> Object oriented programming (OOP), is a style of programming. Where we see a program as a collection of objects. They talk to each other to perform some functionality.</p>
@@ -124,7 +126,8 @@ when we have a function in the object it is called a method.</p>
 <p> Value Types vs Reference Types</p>
 
 <p>In javascript we have 2 catergories of types.
-On one side we have value types also known as primitives and on the other side we have reference types.</p>
+On one side we have value types also known as primitives and on the other side we have reference types. Note that Primitives are copied by Value 
+Objects are copied by their reference</p>
 
 <p>Value types</p>
 <li>Number</li>
