@@ -120,3 +120,23 @@ when we have a function in the object it is called a method.</p>
 <p>OOP:</p>
 
 <p> Object oriented programming (OOP), is a style of programming. Where we see a program as a collection of objects. They talk to each other to perform some functionality.</p>
+
+<p> Value Types vs Reference Types</p>
+
+<p>In javascript we have 2 catergories of types.
+On one side we have value types also known as primitives and on the other side we have reference types.</p>
+
+<p>Value types</p>
+<li>Number</li>
+<li>String</li>
+<li>Boolean</li>
+<li>Symbol</li>
+<li>Undefined</li>
+<li>Null</li>
+<br>
+
+<p>Reference types</p>
+<li>Objects</li>
+<li>Functions</li>
+<li>Arrays</li>
+
