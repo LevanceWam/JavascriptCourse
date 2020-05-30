@@ -2,28 +2,28 @@
 // it references the function that was used to construct or create that object
 
 // Factory Function
-// function createCircle(radius) {
-//     return {
-//         radius,
-//         draw: function () {
-//             console.log('draw');
-//         }
-//     }
-// }
+function createCircle(radius) {
+    return {
+        radius,
+        draw: function () {
+            console.log('draw');
+        }
+    }
+}
 
-// const circle = createCircle(1);
-// console.log(circle.constructor)
+const circle = createCircle(1);
+console.log(circle.constructor)
 
-// // Constructor Function
-// function Circle(radius) {
-//     this.radius = radius;
-//     this.draw = function () {
-//         console.log('drawing');
-//     }
-// }
+// Constructor Function
+function Circle(radius) {
+    this.radius = radius;
+    this.draw = function () {
+        console.log('drawing');
+    }
+}
 
-// const another = new Circle(1);
-// console.log(another.constructor);
+const another = new Circle(1);
+console.log(another.constructor);
 
 // big take away
 // every object has a constructor property 
