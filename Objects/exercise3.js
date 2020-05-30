@@ -60,3 +60,9 @@ function Aresame(address1, address2) {
 }
 
 console.log(Aresame(address1, address2));
+
+// so what happen was this
+// in areequal all of the properties matched up and was the same which gives us true
+// but in aresame they are not because they are not referencing the same object this gave us false
+// they are calling different objects in memory
+//  if we created a address3 that referenced address1 it would be true
