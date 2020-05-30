@@ -148,3 +148,5 @@ Objects are copied by their reference</p>
 <p>In low level languages like c or c++, when creating an object we have to allocate memory to it and when we are done we have to reallocate the memory. But with JS we don't have this concept. When we create objects the memory is automatically allocated when we intialize the object. When we are done we don't have to deallocate the memory. JS engine has something called a garbage collector. This collector finds variables and const that are not being used anymore and deallocates the memory that was allocated them earlier. This happens behind the scenes and there is nothing we can do to have control over it.</p>
 
 <a href="#home">Top</a>
+
+<h2 id=section4>Arrays</h2>
