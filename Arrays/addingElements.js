@@ -19,7 +19,7 @@ numbers.unshift(1, 2);
 // this is how we read the parameters to add the correct agruments
 // first agrument is the placement where will we be inserting the new elements
 // second argument is how many elements after the index we choose do we want to delete
-// finally what are we going to put in 
+// finally the last argument is what are we going to put in we can put multiple things in
 numbers.splice(2, 0, 'a', 'b');
 
 console.log(numbers);
