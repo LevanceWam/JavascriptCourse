@@ -17,7 +17,7 @@ ES6 has came out and this version defined many new features for JS.</p>
 <li><a href='#section1'>Basics</a></li>
 <li><a href='#section2'>Operators</a></li>
 <li><a href='#section3'>Control Flow</a></li>
-<li><a href='#section4'>Objects/a></li>
+<li><a href='#section4'>Objects</a></li>
 
 <h2 id=section1>Basics</h2>
 
