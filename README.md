@@ -150,3 +150,4 @@ Objects are copied by their reference</p>
 <a href="#home">Top</a>
 
 <h2 id=section4>Arrays</h2>
+<a href="#home">Top</a>
