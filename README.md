@@ -18,6 +18,7 @@ ES6 has came out and this version defined many new features for JS.</p>
 <li><a href='#section2'>Operators</a></li>
 <li><a href='#section3'>Control Flow</a></li>
 <li><a href='#section4'>Objects</a></li>
+<li><a href='#section5'>Arrays</a></li>
 
 <h2 id=section1>Basics</h2>
 
@@ -150,4 +151,24 @@ Objects are copied by their reference</p>
 <a href="#home">Top</a>
 
 <h2 id=section4>Arrays</h2>
+<p>What are Arrays:</p>
+
+<p>The Array Object let's us store multiple values in a single variable. We refer to the values as elements. Arrays enable us to iterate through them,
+do basic math and so much more. Throughout this section we will learn some of the methods that come with arrays and how to use them correctly.</p>
+
+<p>Methods used:</p>
+
+<li>find()</li>
+<li>reduce()</li>
+<li>some()</li>
+<li>every()</li>
+<li>join()</li>
+<li>pop()</li>
+<li>shift()</li>
+<li>unshift()</li>
+<br>
+
+<p>Callback Functions</p>
+
+<p>Some methods use callback functions. Also known as predicates, the function is called back as a part of finding an element in this array. Callback functions accept up to 3 parameters/agruments.</p>
 <a href="#home">Top</a>
