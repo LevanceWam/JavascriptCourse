@@ -182,3 +182,7 @@ do basic math and so much more. Throughout this section we will learn some of th
 <p>Hoisting:</p>
 
 <p>In Javascript we have something called hoisting. Hoisting is the process of moving function declarations to the top of the file. This is done automatically by the javascript engine that is running the code. (This could be a interview question)</p>
+
+<p>Scope</p>
+
+<p>the scope of a variable or a constant determines where that variable or const is accessible. When we declare a variable with const or let. The scope of that variable is limited to the block in which they are defined.</p>
