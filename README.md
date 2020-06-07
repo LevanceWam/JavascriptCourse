@@ -13,6 +13,8 @@
 <p>ECMAScript is the defining standards or rules on how you write JS. v.1 was created in 1997 and in 2015
 ES6 has came out and this version defined many new features for JS.</p>
 
+ <p> Javascript is a dynamic language. This means we can set a variable to a number and then change it's type to a string.</p>
+
 <h2>Table of Contents</h2>
 <li><a href='#section1'>Basics</a></li>
 <li><a href='#section2'>Operators</a></li>
@@ -179,4 +181,4 @@ do basic math and so much more. Throughout this section we will learn some of th
 
 <p>Hoisting:</p>
 
-<p>In javascript we have something called hoisting. Hoisting is the process of moving function declarations to the top of the file. This is done automatically by the javascript engine that is running the code.</p>
+<p>In javascript we have something called hoisting. Hoisting is the process of moving function declarations to the top of the file. This is done automatically by the javascript engine that is running the code. (This code be a interview question)</p>
