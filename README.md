@@ -181,4 +181,4 @@ do basic math and so much more. Throughout this section we will learn some of th
 
 <p>Hoisting:</p>
 
-<p>In javascript we have something called hoisting. Hoisting is the process of moving function declarations to the top of the file. This is done automatically by the javascript engine that is running the code. (This code be a interview question)</p>
+<p>In Javascript we have something called hoisting. Hoisting is the process of moving function declarations to the top of the file. This is done automatically by the javascript engine that is running the code. (This could be a interview question)</p>
