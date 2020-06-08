@@ -47,6 +47,10 @@ ES6 has came out and this version defined many new features for JS.</p>
 
 <p>To avoid this we use constant (const). We cannot reassign a value on constant.</p>
 
+<p> let & constant vs var: </p>
+
+<p>Before ES6 we use to declare variables with the keyword var. This brings out a certian amount of issues because var's scope was accessible in areas where it shouldn't be. Var is function scoped, this means that if we had a if block inside of a function. under normal circumstances the variable shouldn't be able to be called outside of the if block.</p>
+
 <h4>Primitive and Reference Types</h4>
 
 <p>In Javascript we have two types: Primitive and Reference.</p>
@@ -190,3 +194,4 @@ do basic math and so much more. Throughout this section we will learn some of th
 <p>Global variables are variables that are accessible everywhere in the code. We want to avoid defining global variables or constants this is consider bad pratice. This is because they are accesible everywhere and a function can accidentally change the value and this can lead to all kinds of bugs or issues.</p>
 
 <p>Local variables are only accessible to the code block that they are defined in. They can not be called outside of the block they where declared in. If a global function with the same name as the local is called at the same time in the same code block the local variable will be the one that shows the results or declared in the function. This is because local variables and constants have higher precedence over global variables or constants.</p>
+
