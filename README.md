@@ -195,3 +195,6 @@ do basic math and so much more. Throughout this section we will learn some of th
 
 <p>Local variables are only accessible to the code block that they are defined in. They can not be called outside of the block they where declared in. If a global function with the same name as the local is called at the same time in the same code block the local variable will be the one that shows the results or declared in the function. This is because local variables and constants have higher precedence over global variables or constants.</p>
 
+<p>Keyword This:</p>
+<p>The keyword this references the object that is executing the current function.</p>
+
