@@ -186,3 +186,7 @@ do basic math and so much more. Throughout this section we will learn some of th
 <p>Scope</p>
 
 <p>the scope of a variable or a constant determines where that variable or const is accessible. When we declare a variable with const or let. The scope of that variable is limited to the block in which they are defined.</p>
+
+<p>Global variables are variables that are accessible everywhere in the code. We want to avoid defining global variables or constants this is consider bad pratice. This is because they are accesible everywhere and a function can accidentally change the value and this can lead to all kinds of bugs or issues.</p>
+
+<p>Local variables are only accessible to the code block that they are defined in. They can not be called outside of the block they where declared in. If a global function with the same name as the local is called at the same time in the same code block the local variable will be the one that shows the results or declared in the function. This is because local variables and constants have higher precedence over global variables or constants.</p>
