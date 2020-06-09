@@ -34,10 +34,25 @@ ES6 has came out and this version defined many new features for JS.</p>
 
 <h4>Abstraction</h4>
 
-<p>Allows us to hide some of the properties and methods from the outside of our objects. This also gives us a couple of benefits</p>
+<p>Allows us to hide some of the properties and methods from the outside of our objects. This also gives us a couple of benefits. First it will make the interface of those objects simpler. Using and understanding an object with fewer properties and methods is easier than an objeect with several properties and methods. The second benefit is that it helps reduce the impact of change. Imagine that we change the inner or private functions. None of the changes will leak to the outside because we don't have any code that touches these methods outside if their containing object. We can delete the method or change it's parameters, but none of these changes will impact the rest of the application code. Big take away with Abstraction we reduce the impact of change.</p>
 
+<h4>Inheritance</h4>
 
+<p>Inheritance is a mechanism that allows you to eliminate redundant code. Here's an example, think of html elements like textbox, dropdowns and etc. All of these elements have things in common. they have properties like hidden, inner html and methods of the sort. Instead of redefining all of those properties and methods for every kind of HTML element. We can define them once in a generic object.Give it an name and have other objects inherit these properties and methods. This is how inheritance helps us eliminate redundant code.</p>
 
+<h4>Polymorphism</h4>
+
+<p>Poly means many, morph means form. Together polymorphism means many forms. In OOP polymorphism is a technique that allows you to get rid of long if and else or switch and case statements. Back to the html element example. All of the objects mentioned should have the ability to be render on a page. But, how they are rendered is what is different from the others. With  OOP we can implement a render method in those objects and the render method will behave differently depending on the type of the object we are referencing.</p>
+
+<h4>Benefits of OOP</h4>
+
+<p>Using Encapsulation we group variables and functions together this way we can reduce complexity. Now we cn reude an object in different parts of a program, or in a different program.</p>
+
+<p>With Abstraction, We hide the details and complexity and show only the essentials. This technique reduces complexity and also isolates the impact of changes in the code.</p>
+
+<p> With Inheritance we eliminate redudant code</p>
+
+<p>Finally with polymorphism we can refactor switch case statememts.</p>
 
 
 <h2>Table of Contents</h2>
