@@ -198,3 +198,4 @@ do basic math and so much more. Throughout this section we will learn some of th
 <p>Keyword This:</p>
 <p>The keyword this references the object that is executing the current function.</p>
 
+<a href="#home">Top</a>
