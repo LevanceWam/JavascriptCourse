@@ -13,12 +13,15 @@
 <p>ECMAScript is the defining standards or rules on how you write JS. v.1 was created in 1997 and in 2015
 ES6 has came out and this version defined many new features for JS.</p>
 
+ <p> Javascript is a dynamic language. This means we can set a variable to a number and then change it's type to a string.</p>
+
 <h2>Table of Contents</h2>
 <li><a href='#section1'>Basics</a></li>
 <li><a href='#section2'>Operators</a></li>
 <li><a href='#section3'>Control Flow</a></li>
 <li><a href='#section4'>Objects</a></li>
 <li><a href='#section5'>Arrays</a></li>
+<li><a href='#section6'>Functions</a></li>
 
 <h2 id=section1>Basics</h2>
 
@@ -43,6 +46,10 @@ ES6 has came out and this version defined many new features for JS.</p>
 <p>There are times we need our variables to keep the value the same. This is because it can cause a bug in the program.</p>
 
 <p>To avoid this we use constant (const). We cannot reassign a value on constant.</p>
+
+<p> let & constant vs var: </p>
+
+<p>Before ES6 we use to declare variables with the keyword var. This brings out a certian amount of issues because var's scope was accessible in areas where it shouldn't be. Var is function scoped, this means that if we had a if block inside of a function. under normal circumstances the variable shouldn't be able to be called outside of the if block.</p>
 
 <h4>Primitive and Reference Types</h4>
 
@@ -150,7 +157,7 @@ Objects are copied by their reference</p>
 
 <a href="#home">Top</a>
 
-<h2 id=section4>Arrays</h2>
+<h2 id=section5>Arrays</h2>
 <p>What are Arrays:</p>
 
 <p>The Array Object let's us store multiple values in a single variable. We refer to the values as elements. Arrays enable us to iterate through them,
@@ -171,4 +178,23 @@ do basic math and so much more. Throughout this section we will learn some of th
 <p>Callback Functions</p>
 
 <p>Some methods use callback functions. Also known as predicates, the function is called back as a part of finding an element in this array. Callback functions accept up to 3 parameters/agruments.</p>
+
 <a href="#home">Top</a>
+
+<h2 id=section6>Functions</h2>
+
+<p>Hoisting:</p>
+
+<p>In Javascript we have something called hoisting. Hoisting is the process of moving function declarations to the top of the file. This is done automatically by the javascript engine that is running the code. (This could be a interview question)</p>
+
+<p>Scope</p>
+
+<p>the scope of a variable or a constant determines where that variable or const is accessible. When we declare a variable with const or let. The scope of that variable is limited to the block in which they are defined.</p>
+
+<p>Global variables are variables that are accessible everywhere in the code. We want to avoid defining global variables or constants this is consider bad pratice. This is because they are accesible everywhere and a function can accidentally change the value and this can lead to all kinds of bugs or issues.</p>
+
+<p>Local variables are only accessible to the code block that they are defined in. They can not be called outside of the block they where declared in. If a global function with the same name as the local is called at the same time in the same code block the local variable will be the one that shows the results or declared in the function. This is because local variables and constants have higher precedence over global variables or constants.</p>
+
+<p>Keyword This:</p>
+<p>The keyword this references the object that is executing the current function.</p>
+
