@@ -15,6 +15,17 @@ ES6 has came out and this version defined many new features for JS.</p>
 
  <p> Javascript is a dynamic language. This means we can set a variable to a number and then change it's type to a string.</p>
 
+
+<p>OOP:</p>
+
+<p> Object oriented programming (OOP), is a style of programming. Where we see a program as a collection of objects. They talk to each other to perform some functionality. A programming paradigm centered around objects rather than functions. OOP has been around since the 70s and unlike tools and frameworks that come and go.</p>
+
+<p>OOP is still relevant today because it is not a programming tool or language. It is a style of programming or paradigm. There are several languages that support OOP such as C#, Java, Ruby, Python, Javascript, and more! </p>
+
+<p>Four Pillars of OOP</p>
+
+<p></p>
+
 <h2>Table of Contents</h2>
 <li><a href='#section1'>Basics</a></li>
 <li><a href='#section2'>Operators</a></li>
@@ -126,10 +137,6 @@ console.log('2' == 2);
 when we have a function in the object it is called a method.</p>
 
 <p>When we use an object it is not stored in the variable. The object is stored somewhere else in the memory and the address of the memory location is stored inside the memory variable</p>
-
-<p>OOP:</p>
-
-<p> Object oriented programming (OOP), is a style of programming. Where we see a program as a collection of objects. They talk to each other to perform some functionality.</p>
 
 <p> Value Types vs Reference Types:</p>
 
