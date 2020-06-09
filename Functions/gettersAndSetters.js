@@ -44,7 +44,7 @@ console.log(person2.fullName());
 const person3 = {
     firstName: 'Vance',
     lastName: 'Wamley',
-    get fullName() { // we are calling a function her
+    get fullName() { // we are calling a function here
         return `${person3.firstName} ${person3.lastName}`
     },
     set fullName(value) {
