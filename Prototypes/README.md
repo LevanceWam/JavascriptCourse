@@ -252,3 +252,4 @@ but remember in JS we do not have classes</p>
 
 <h4>Prototypical Inheritance</h4>
 
+ <p>Remember in JS we don't have classes, We have objects.</p>
