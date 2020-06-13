@@ -62,6 +62,7 @@ ES6 has came out and this version defined many new features for JS.</p>
 <li><a href='#section4'>Objects</a></li>
 <li><a href='#section5'>Arrays</a></li>
 <li><a href='#section6'>Functions</a></li>
+<li><a href='#section7'>Prototypes</a></li>
 
 
 <h2 id=section1>Basics</h2>
@@ -237,7 +238,7 @@ do basic math and so much more. Throughout this section we will learn some of th
 
 <a href="#home">Top</a>
 
-<h2 id=section6>Prototypes</h2>
+<h2 id=section7>Prototypes</h2>
 
 <h4>Classical vs Prototypical Inheritance</h4>
 <p><strong>NOTE:</strong>  This is one of the topics for interview questions</p>
