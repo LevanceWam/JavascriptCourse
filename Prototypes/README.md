@@ -46,7 +46,7 @@ ES6 has came out and this version defined many new features for JS.</p>
 
 <h4>Benefits of OOP</h4>
 
-<p>Using Encapsulation we group variables and functions together this way we can reduce complexity. Now we cn reude an object in different parts of a program, or in a different program.</p>
+<p>Using Encapsulation we group variables and functions together this way we can reduce complexity. Now we can reuse an object in different parts of a program, or in a different program.</p>
 
 <p>With Abstraction, We hide the details and complexity and show only the essentials. This technique reduces complexity and also isolates the impact of changes in the code.</p>
 
@@ -238,3 +238,17 @@ do basic math and so much more. Throughout this section we will learn some of th
 <a href="#home">Top</a>
 
 <h2 id=section6>Prototypes</h2>
+
+<h4>Classical vs Prototypical Inheritance</h4>
+<p><strong>NOTE:</strong>  This is one of the topics for interview questions</p>
+
+<p>Inheritance is one of the core concepts of OOP this enables an object to take on the properties and method of another object. This makes it easy to reuse code in different parts of an application.</p>
+
+<h4>Classical Inheritance</h4>
+
+<p> With classical inheritance we have the base classes (also known as super/parent class) that has child classes (also known as deprived/sub classes)  that inherit from the base class. We reference the relationship as a IS-A relationship. For example: if we have a parent class name shape and child class named cirlce we would say circle IS-A shape
+this is the classical definition of Inhertiance 
+but remember in JS we do not have classes</p>
+
+<h4>Prototypical Inheritance</h4>
+
