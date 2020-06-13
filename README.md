@@ -62,7 +62,6 @@ ES6 has came out and this version defined many new features for JS.</p>
 <li><a href='#section4'>Objects</a></li>
 <li><a href='#section5'>Arrays</a></li>
 <li><a href='#section6'>Functions</a></li>
-<li><a href='#section7'>Objects Part II</a></li>
 
 
 <h2 id=section1>Basics</h2>
@@ -237,6 +236,3 @@ do basic math and so much more. Throughout this section we will learn some of th
 <p>The keyword this references the object that is executing the current function.</p>
 
 <a href="#home">Top</a>
-
-<h2 id=section7>Objects Part II</h2>
-<p></p>
