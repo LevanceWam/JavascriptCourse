@@ -251,6 +251,7 @@ do basic math and so much more. Throughout this section we will learn some of th
 this is the classical definition of Inhertiance 
 but remember in JS we do not have classes</p>
 
+ <p>Remember in JS we don't have classes, We have objects.</p>
+ 
 <h4>Prototypical Inheritance</h4>
 
- <p>Remember in JS we don't have classes, We have objects.</p>
