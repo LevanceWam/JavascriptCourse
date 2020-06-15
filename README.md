@@ -252,6 +252,11 @@ this is the classical definition of Inhertiance
 but remember in JS we do not have classes</p>
 
  <p>Remember in JS we don't have classes, We have objects.</p>
- 
+
 <h4>Prototypical Inheritance</h4>
+
+<p> A prototype is just a regular object in memory. Prototype is essentially a parent of another object. Every object in JS except for the rootobject has a prototype or parent and objects inherits all the members we defined in its prototype.
+</p>
+
+<p>Every object</p>
 
