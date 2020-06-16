@@ -255,8 +255,12 @@ but remember in JS we do not have classes</p>
 
 <h4>Prototypical Inheritance</h4>
 
-<p> A prototype is just a regular object in memory. Prototype is essentially a parent of another object. Every object in JS except for the rootobject has a prototype or parent and objects inherits all the members we defined in its prototype.
+<p> A prototype is just a regular object in memory. Prototype is essentially a parent of another object. Every object in javascript except for the rootobject has a prototype or parent and objects inherits all the members we defined in its prototype.
 </p>
 
-<p>Every object</p>
+<p>Every object that we create in javascript directly or indirectly inherits from the rootObject. This is because the rootObject is the base of all objects in javascript. rootObject does not have a prototype or parent. So in memory our objects reference the rootObject. So we have a single instance of rootObject in memory</p>
+
+<p>When we access a property or a method on a object 
+Javascript engine first looks for that property or method. First on the object itself if it is not found
+then it looks at the prototype for that object. So if it can not find that member it will look at the prototype of that object all the way up to the root object we called rootObject that is prototypical inheritance in action. When accessing a property or a method on an object. Javascript engine mocks up the prototype chain to find the target member. </p>
 
