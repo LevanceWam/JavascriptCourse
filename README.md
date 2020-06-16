@@ -264,3 +264,10 @@ but remember in JS we do not have classes</p>
 Javascript engine first looks for that property or method. First on the object itself if it is not found
 then it looks at the prototype for that object. So if it can not find that member it will look at the prototype of that object all the way up to the root object we called rootObject that is prototypical inheritance in action. When accessing a property or a method on an object. Javascript engine mocks up the prototype chain to find the target member. </p>
 
+<h4>Multilevel Inheritance</h4>
+
+<p>If we were to take a empty array and inspect its prototype property we will find some familiar methods.
+These methods are defined in a object we are going to call rootArray and this object is the prototype of all arrays in js. So this is what is going on in the memory
+the empty array is being derived from rootArray, Then if we inspect the rootArray we find that it's prototype is rootObject.</p>
+
+<p>This is what we can visualize: emptyArray -> rootArray -> rootObject. The emptyArray derives from the rootArray and the rootArray derives from the rootObject. This is known as multilevel inheritance. </p>
