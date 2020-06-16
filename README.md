@@ -267,7 +267,10 @@ then it looks at the prototype for that object. So if it can not find that membe
 <h4>Multilevel Inheritance</h4>
 
 <p>If we were to take a empty array and inspect its prototype property we will find some familiar methods.
-These methods are defined in a object we are going to call rootArray and this object is the prototype of all arrays in js. So this is what is going on in the memory
-the empty array is being derived from rootArray, Then if we inspect the rootArray we find that it's prototype is rootObject.</p>
+These methods are defined in a object we are going to call rootArray and this object is the prototype of all arrays in javascript. So this is what is going on in the memory the empty array is being derived from rootArray, Then if we inspect the rootArray we find that it's prototype is rootObject.</p>
 
 <p>This is what we can visualize: emptyArray -> rootArray -> rootObject. The emptyArray derives from the rootArray and the rootArray derives from the rootObject. This is known as multilevel inheritance. </p>
+
+<p>If we were too create object using a custom constructor. The custom constructor would be the prototype of all of the objects made from that constructor. Let's call it rootConstr, and everytime the constructor is called the object created will have it's prototype property set to the rootConstr. In other words objects created by a given constructor will have the same prototype. The same goes for all arrays created by the array constructor will have the same prototype</p>
+
+<p>Again let's visualize what is going on in the memory constructorObject -> rootConstr -> rootObject, so the constructor's object is inheriting from the rootConstr which is inheriting from the rootObject</p>
