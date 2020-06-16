@@ -249,16 +249,16 @@ do basic math and so much more. Throughout this section we will learn some of th
 
 <p> With classical inheritance we have the base classes (also known as super/parent class) that has child classes (also known as deprived/sub classes)  that inherit from the base class. We reference the relationship as a IS-A relationship. For example: if we have a parent class name shape and child class named cirlce we would say circle IS-A shape
 this is the classical definition of Inhertiance 
-but remember in JS we do not have classes</p>
+but remember in Javascript we do not have classes</p>
 
- <p>Remember in JS we don't have classes, We have objects.</p>
+ <p>Remember in Javascript we don't have classes, We have objects.</p>
 
 <h4>Prototypical Inheritance</h4>
 
 <p> A prototype is just a regular object in memory. Prototype is essentially a parent of another object. Every object in javascript except for the rootobject has a prototype or parent and objects inherits all the members we defined in its prototype.
 </p>
 
-<p>Every object that we create in javascript directly or indirectly inherits from the rootObject. This is because the rootObject is the base of all objects in javascript. rootObject does not have a prototype or parent. So in memory our objects reference the rootObject. So we have a single instance of rootObject in memory</p>
+<p>Every object that we create in javascript directly or indirectly inherits from the rootObject. This is because the rootObject is the base of all objects in javascript. rootObject does not have a prototype or parent. So in memory our objects reference the rootObject. So we have a single instance of rootObject in memory.</p>
 
 <p>When we access a property or a method on a object 
 Javascript engine first looks for that property or method. First on the object itself if it is not found
@@ -271,6 +271,14 @@ These methods are defined in a object we are going to call rootArray and this ob
 
 <p>This is what we can visualize: emptyArray -> rootArray -> rootObject. The emptyArray derives from the rootArray and the rootArray derives from the rootObject. This is known as multilevel inheritance. </p>
 
-<p>If we were too create object using a custom constructor. The custom constructor would be the prototype of all of the objects made from that constructor. Let's call it rootConstr, and everytime the constructor is called the object created will have it's prototype property set to the rootConstr. In other words objects created by a given constructor will have the same prototype. The same goes for all arrays created by the array constructor will have the same prototype</p>
+<p>If we were too create object using a custom constructor. The custom constructor would be the prototype of all of the objects made from that constructor. Let's call it rootConstr, and everytime the constructor is called the object created will have it's prototype property set to the rootConstr. In other words objects created by a given constructor will have the same prototype. The same goes for all arrays created by the array constructor will have the same prototype.</p>
 
-<p>Again let's visualize what is going on in the memory constructorObject -> rootConstr -> rootObject, so the constructor's object is inheriting from the rootConstr which is inheriting from the rootObject</p>
+<p>Again let's visualize what is going on in the memory constructorObject -> rootConstr -> rootObject, so the constructor's object is inheriting from the rootConstr which is inheriting from the rootObject.</p>
+
+<p>In javascript, we have the ability to modify already existing objects in javascript. This is very tempting We do not do this.</p>
+
+<p>Do Not modify objects you Do Not own! We understand that javascript is a dynamic language it makes it easy to add properties and methods to that existing object
+but that doesn't mean that we should modify the built in objects. So don't overwrite methods, don't add new methods or properties and don't remove exisiting properties and methods because somewhere else in a library you might be using, there might be code that is dependent on those methods in the built in objects
+so if you modify the built in objects you will create all sorts of issues.</p>
+
+<a href="#home">Top</a>
