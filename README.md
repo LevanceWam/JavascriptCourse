@@ -283,3 +283,4 @@ so if you modify the built in objects you will create all sorts of issues.</p>
 
 <a href="#home">Top</a>
 
+<h2 id=section7>Prototypical Inheritance</h2>
