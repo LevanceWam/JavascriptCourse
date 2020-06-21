@@ -1,4 +1,5 @@
 // A simplified version of the code from the previous example 
+// Method overriding is the remimplementing a method in a child object
 
 function extend(Child, Parent) {
     Child.prototype = Object.create(Parent);
