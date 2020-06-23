@@ -48,3 +48,5 @@ Circle.prototype.draw = function () {
 
 const s = new Shape();
 const c = new Circle(1);
+
+console.log(c)
