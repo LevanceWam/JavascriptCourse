@@ -287,3 +287,10 @@ so if you modify the built in objects you will create all sorts of issues.</p>
 
 <h4>When to use inheritance ?</h4>
 
+<p>While inheritance is a great tool for solving the problem of code reuse we have to be really careful About using it. This is because it can make your source code complex and fragile so don't use inheritance just for the sake of using it especially in small projects. Remember keep it simple and stupid. We want to start with simple objects and if we see that a number of them share similar features. Then we should encapsulate those features inside of a generic object and use inheritance.
+But remember we have another solution than inheritance Composition. Composition helps use avoid using inhertiance hierachries which are very fragile.</p>
+
+<h4>Important</h4>
+
+<p> Avoid creating inheritance hierarchies because they are very fragile. If you want to use inheritance keep it to one level do not go more than one level above inheritance. There is a famous saying that goes, "Favor Composition over Inheritance" with composition instead of having the complex hierarchy we can compose a few objects together to create a new object this technique gives us great flexibility.
+</p>
