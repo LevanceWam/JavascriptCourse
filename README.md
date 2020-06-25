@@ -285,3 +285,5 @@ so if you modify the built in objects you will create all sorts of issues.</p>
 
 <h2 id=section7>Prototypical Inheritance</h2>
 
+<h4>When to use inheritance ?</h4>
+
