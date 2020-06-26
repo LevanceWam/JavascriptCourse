@@ -63,6 +63,7 @@ ES6 has came out and this version defined many new features for JS.</p>
 <li><a href='#section5'>Arrays</a></li>
 <li><a href='#section6'>Functions</a></li>
 <li><a href='#section7'>Prototypes</a></li>
+<li><a href='#section8'>Classes</a></li>
 
 
 <h2 id=section1>Basics</h2>
@@ -294,3 +295,5 @@ But remember we have another solution than inheritance Composition. Composition 
 
 <p> Avoid creating inheritance hierarchies because they are very fragile. If you want to use inheritance keep it to one level do not go more than one level above inheritance. There is a famous saying that goes, "Favor Composition over Inheritance" with composition instead of having the complex hierarchy we can compose a few objects together to create a new object this technique gives us great flexibility.
 </p>
+
+<h2 id=section8>Classes</h2>
