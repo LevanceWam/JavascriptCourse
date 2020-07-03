@@ -297,3 +297,4 @@ But remember we have another solution than inheritance Composition. Composition 
 </p>
 
 <h2 id=section8>Classes</h2>
+<p>In es6 there is a new way to create objects and implement inheritance by using classes. These classes are not like the classes we have in languages like c# and java. Javascript classes essentially syntactic sugar over prototypical inheritance that's why in the last section we had to learn prototypical inheritance the way that we did so we can understand how prototypical inheritance works before we look at the new syntax which is cleaner and simpler</p>
