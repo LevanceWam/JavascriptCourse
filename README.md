@@ -315,3 +315,5 @@ But remember we have another solution than inheritance Composition. Composition 
 <p>By enabling strict mode if you call a method as a function "this". By defaut "this" will no longer point to the global object it will be set to undefine. The reason for this is to prevent us from accidently modifying the global object because that is bad practice.</p>
 
 <p>In ES6 classes by default are in strict mode. Javascript engine will always excute the body of this class on the strict mode. This will prevent us from accidently modifying the global object.</p>
+
+<a href="#home">Top</a>
