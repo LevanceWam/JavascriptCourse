@@ -226,9 +226,13 @@ do basic math and so much more. Throughout this section we will learn some of th
 
 <p>In Javascript we have something called hoisting. Hoisting is the process of moving function declarations to the top of the file. This is done automatically by the javascript engine that is running the code. (This could be a interview question)</p>
 
+<p>Function Declarations are hoisted which means they raise to the top of the code.</p>
+
+<p>Function Expressions are not hoisted, if we try to call it before it is declared we will get an error. This is because we are dealing with an expression a constant or a variable that is not intialized.</p>
+
 <p>Scope</p>
 
-<p>the scope of a variable or a constant determines where that variable or const is accessible. When we declare a variable with const or let. The scope of that variable is limited to the block in which they are defined.</p>
+<p>The scope of a variable or a constant determines where that variable or const is accessible. When we declare a variable with const or let. The scope of that variable is limited to the block in which they are defined.</p>
 
 <p>Global variables are variables that are accessible everywhere in the code. We want to avoid defining global variables or constants this is consider bad pratice. This is because they are accesible everywhere and a function can accidentally change the value and this can lead to all kinds of bugs or issues.</p>
 
@@ -301,3 +305,9 @@ But remember we have another solution than inheritance Composition. Composition 
 <p>Classes are basically constructor functions.</p>
 
 <p>In es6 there is a new way to create objects and implement inheritance by using classes. These classes are not like the classes we have in languages like c# and java. Javascript classes essentially syntactic sugar over prototypical inheritance that's why in the last section we had to learn prototypical inheritance the way that we did so we can understand how prototypical inheritance works before we look at the new syntax which is cleaner and simpler</p>
+
+<p>We can define classes using a declaration or a expression syntax. But, unlike functions, class declarations or class expressions are not hoisted so we cannot create a object before declaring a class.</p>
+
+<h4>Strict mode:</h4>
+
+<p>in JS we have something called strict mode. when we enable this mode. Javascript engine will be more sensitive so it will do more error checking. If there are errors that silently fail its going to turn them into exceptions it will also change the behavior of the keyword 'this' in functions to enable it at the top of the page write 'use strict'. </p>
