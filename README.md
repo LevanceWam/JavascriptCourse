@@ -316,4 +316,16 @@ But remember we have another solution than inheritance Composition. Composition 
 
 <p>In ES6 classes by default are in strict mode. Javascript engine will always excute the body of this class on the strict mode. This will prevent us from accidently modifying the global object.</p>
 
+<h4>Private methods and properties:</h4>
+
+<p> In ES6 we have 2 ways of making methods and properties symbols and weakmaps</p>
+
+<p>In ES6 we have a new primitive type called symbol. Symbol is a function we call to generate a symbol which is essentially a unqiue indentifier. So, everytime we call this function we get a new unqiue identifier. If we compare a symbol to a symbol we will get false because they are not the same.</p>
+
+<p>An interesting thing to note about symbols is that they are kind of private. What I mean by that is that the properties and methods are essentally part of the object and are accessible from the outside. But accessing them is hard and awkward. </p>
+
+<p>Also in ES6 we have weakmaps, a weakmap is essentially a dictionary where keys are objects and values can be anything. The reason they are called weakmaps is because the key are weak. So if there is no reference to these keys they will be garbage collector</p>
+
+<p> WeakMaps give us better protection than symbols. There is no way to access private members implemented using WeakMaps from the outside of an object. </p>
+
 <a href="#home">Top</a>
