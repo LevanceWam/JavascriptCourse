@@ -311,3 +311,7 @@ But remember we have another solution than inheritance Composition. Composition 
 <h4>Strict mode:</h4>
 
 <p>in JS we have something called strict mode. when we enable this mode. Javascript engine will be more sensitive so it will do more error checking. If there are errors that silently fail its going to turn them into exceptions it will also change the behavior of the keyword 'this' in functions to enable it at the top of the page write 'use strict'. </p>
+
+<p>By enabling strict mode if you call a method as a function "this". By defaut "this" will no longer point to the global object it will be set to undefine. The reason for this is to prevent us from accidently modifying the global object because that is bad practice.</p>
+
+<p>In ES6 classes by default are in strict mode. Javascript engine will always excute the body of this class on the strict mode. This will prevent us from accidently modifying the global object.</p>
