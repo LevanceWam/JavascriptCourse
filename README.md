@@ -329,3 +329,5 @@ But remember we have another solution than inheritance Composition. Composition 
 <p> WeakMaps give us better protection than symbols. There is no way to access private members implemented using WeakMaps from the outside of an object. </p>
 
 <a href="#home">Top</a>
+
+<h2 id=section8>ES6 Tooling</h2>
