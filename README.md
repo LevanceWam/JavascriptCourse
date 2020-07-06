@@ -300,6 +300,8 @@ But remember we have another solution than inheritance Composition. Composition 
 <p> Avoid creating inheritance hierarchies because they are very fragile. If you want to use inheritance keep it to one level do not go more than one level above inheritance. There is a famous saying that goes, "Favor Composition over Inheritance" with composition instead of having the complex hierarchy we can compose a few objects together to create a new object this technique gives us great flexibility.
 </p>
 
+<a href="#home">Top</a>
+
 <h2 id=section8>Classes</h2>
 
 <p>Classes are basically constructor functions.</p>
@@ -338,4 +340,16 @@ But remember we have another solution than inheritance Composition. Composition 
 
 <h4>History of Modules in Javascript:</h4>
 
-<p>In ES5  we didnt have the concept of modules. So different solutions emerged to solve this problem smart developers in the community introduced new syntaxes to define modules. We refer to these syntaxes as modules formats some of these modules are AMD (Asynchronous Module Definition) used in browser applications, CommonJs used in node, UMD (universal module definition) used in both browser and node, and finally ES6 modules. AMD and UMD are mainly used to maintain legacy applications.</p>
+<p>In ES5 we didn't have the concept of modules. So different solutions emerged to solve this problem smart developers in the community introduced new syntaxes to define modules. We refer to these syntaxes as modules formats some of these modules are AMD (Asynchronous Module Definition) used in browser applications, CommonJs used in node, UMD (Universal Module Definition) used in both browser and node, and finally ES6 modules. AMD and UMD are mainly used to maintain legacy applications.</p>
+
+<p>In this section I learned about exporting and importing modules from diferent files a skill that is very important in my growth as a web developer. I have also learned about Babel and webpack which will be discussed in further detail below</p>
+
+<h4>Babel:</h4>
+
+<p>Babel is a transpiler, A transpiler is the combination of 2 words translator and compiler. Basically it's a tool that we give it our modern Js code and it will convert our JS code into code that all our browsers can understand</p>
+
+<h4>Webpack:</h4>
+
+<p>Webpack is a bundler, A Module bundler is responsible for combining all of our JS file into a single file which we call the bundle. There are many bundlers out there but the most popular one is web pack so we give all our Javascript files to webpack. Webpack will combine them all into a single file and will minify our code by getting rid of all the white space and comments. Then it will uglify our code which basically means it will shorten the name of our identifiers like classes, functions, objects and so on. This will reduce the size of the bundle that we will serve to the client. </p>
+
+<a href="#home">Top</a>
