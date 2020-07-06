@@ -332,4 +332,10 @@ But remember we have another solution than inheritance Composition. Composition 
 
 <h2 id=section8>ES6 Tooling</h2>
 
-<p></p>
+<p>Up until this point we have been writing our code in single files. When it comes to working in real world applications we do not do this. We do not want to have javascript files with hundreds or thousands lines of code. It makes it hard to maintian so we should split the code into multiple files and we call each of these files module this gives us a number of benefits.</p>
+
+<p>First, is that we can increase the maintainabitily of our application because our code is better organized. Second, is that we get to reuse one or more of these modules in different parts of an application or in different applications. Third, is that we abstract code so we can apply the abstraction prinicple which means we can hide some of the complexity in a module and expose the essentials.</p>
+
+<h4>History of Modules in Javascript:</h4>
+
+<p>In ES5  we didnt have the concept of modules. So different solutions emerged to solve this problem smart developers in the community introduced new syntaxes to define modules. We refer to these syntaxes as modules formats some of these modules are AMD (Asynchronous Module Definition) used in browser applications, CommonJs used in node, UMD (universal module definition) used in both browser and node, and finally ES6 modules. AMD and UMD are mainly used to maintain legacy applications.</p>
