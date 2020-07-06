@@ -331,3 +331,5 @@ But remember we have another solution than inheritance Composition. Composition 
 <a href="#home">Top</a>
 
 <h2 id=section8>ES6 Tooling</h2>
+
+<p></p>
