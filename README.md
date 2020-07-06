@@ -64,6 +64,7 @@ ES6 has came out and this version defined many new features for JS.</p>
 <li><a href='#section6'>Functions</a></li>
 <li><a href='#section7'>Prototypes</a></li>
 <li><a href='#section8'>Classes</a></li>
+<li><a href='#section9'>ES6 Tooling</a></li>
 
 
 <h2 id=section1>Basics</h2>
@@ -332,7 +333,7 @@ But remember we have another solution than inheritance Composition. Composition 
 
 <a href="#home">Top</a>
 
-<h2 id=section8>ES6 Tooling</h2>
+<h2 id=section9>ES6 Tooling</h2>
 
 <p>Up until this point we have been writing our code in single files. When it comes to working in real world applications we do not do this. We do not want to have javascript files with hundreds or thousands lines of code. It makes it hard to maintian so we should split the code into multiple files and we call each of these files module this gives us a number of benefits.</p>
 
