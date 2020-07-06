@@ -47,3 +47,11 @@ const x = 1;
 // first we go to package.json
 // in the script section delete what we have for test (don't worry about it)
 // we are going to add a new script
+// we call it babel instead of test 
+// then we set this to a command that will run in terminal
+// "babel --preset env babel.js -o build/babel.js" this is written terminal
+// in order for this to work we need to create the build folder or else it will cause an error
+// **note** babel.js is the file I created so where babel.js is where the name of the file should be
+// so when this code is excuted babel will create a new file in the build folder and convert our work so that it can be read on all browsers
+
+// we type in the terminal npm run babel to run the command we defined above
