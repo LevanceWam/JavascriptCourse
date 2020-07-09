@@ -9,3 +9,5 @@ for (let i = 0; i < my_list.length; i++) {
         }
     }
 }
+
+console.log(my_list);
