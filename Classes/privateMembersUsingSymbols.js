@@ -63,7 +63,7 @@ class Circle {
     // in ES6 we have this new feature called computer property names 
     // we can add brackets and inside of the brackets we add an expression
     // when the expression is evaluted the resulting value will be used as the name of a 
-    // name of a property or method 
+    // property or method 
     // so we will pass draw here 
     // now this expression (symbol) will be evaluted 
     // we get a unique value a unqiue identifier and because we have that inside of the brackets 
