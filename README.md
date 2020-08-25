@@ -106,6 +106,7 @@ ES6 has came out and this version defined many new features for JS.</p>
 <li>Boolean</li>
 <li>Undefined</li>
 <li>Null</li>
+<br>
 
 ```
 <!-- undefined -->
@@ -114,7 +115,6 @@ indicates that a variable has not been assigned a value, or not declared at all.
 <!-- null -->
 is "nothing". It is supposed to be something that doesn't exist. Unfortunately, in JavaScript, the data type of null is an object.
 ```
-<br>
 
 <p> If you need a laugh go <a href='https://stackoverflow.com/questions/801032/why-is-null-an-object-and-whats-the-difference-between-null-and-undefined'>click me</a></p>
 
